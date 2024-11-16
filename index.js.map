@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/js/index.js"],"sourcesContent":["import '../css/style.css';\n\nconsole.log('Hello world');\n"],"names":[],"mappings":"ssBAEA,QAAQ,IAAI,aAAa"}
