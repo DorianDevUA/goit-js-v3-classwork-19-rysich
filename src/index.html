@@ -9,9 +9,26 @@
   <body>
     <div class="container">
       <load src="./partials/header.html" icon-path="./img/sprite.svg#hexagon" />
-      <h1>HTTP-запити та взаємодія з бекендом</h1>
-      <h2>JavaScript v3 (Module 11)</h2>
-      <p>Обери необхідний пункт меню у навігації в шапці сайту</p>
+
+      <main>
+        <h1>HTTP-запити та взаємодія з бекендом</h1>
+        <h2>JavaScript v3 (Module 11)</h2>
+
+        <form action="submit" class="js-search">
+          <input type="text" name="query" />
+          <select name="days">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+            <option value="14">14</option>
+          </select>
+          <button>Шукати</button>
+        </form>
+
+        <ul class="js-list"></ul>
+      </main>
+
       <load src="./partials/footer.html" />
     </div>
     <script type="module" src="./js/index.js"></script>
